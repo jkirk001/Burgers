@@ -1,7 +1,8 @@
 import axios from "axios";
+import { apiBase } from "./google-api";
 
 const instance = axios.create({
-  baseURL: "https://burgerbuilderfun-default-rtdb.firebaseio.com",
+  baseURL: apiBase,
 });
 
 export default instance;
