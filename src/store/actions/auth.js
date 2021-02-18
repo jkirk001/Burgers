@@ -49,7 +49,7 @@ export const auth = (email, password, method) => {
       authAPI;
     if (method === "login") {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=" +
+        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=" +
         authAPI;
     }
     axios

@@ -13,7 +13,6 @@ import Logout from "./containers/Logout/Logout";
 class App extends Component {
   componentDidMount() {
     this.props.onAutoSignup();
-    console.log(this.props);
   }
   render() {
     let routes = (
