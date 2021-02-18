@@ -1,0 +1,26 @@
+.Main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Form {
+  width: 70%;
+  display: inherit;
+  flex-direction: column;
+  border: 1px solid #f4e480c4;
+  box-shadow: 0px 5px 10px #fff6b3;
+}
+/*.Inputs {
+  margin-top: 20px;
+  border-radius: 3px;
+}*/
+
+/*.Form label {
+  letter-spacing: 0.5px;
+}*/
+
+@media (min-width: 700px) {
+  .Form {
+    width: 500px;
+  }
+}
